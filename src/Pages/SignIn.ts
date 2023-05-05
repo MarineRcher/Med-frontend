@@ -1,7 +1,7 @@
-
+//import React from 'react';
 
 function SignIn() {
-return("hello")
+return React.createElement( 'div', null, 'Bonjour');
 }
 
 export default SignIn;

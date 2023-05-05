@@ -1,14 +1,19 @@
-import { browserRouter as Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
 
 //import pages
 import SignIn from './Pages/SignIn';
 
 
 function App() {
+ return (
+
   <Routes>
-      <Route path='/signIn' element={SignIn}/>
+      <Route path='/signIn' element={<SignIn />}/>
   </Routes>
+
+ );
 }
+
 
 
 
