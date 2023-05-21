@@ -1,0 +1,11 @@
+body{
+    background-color: #F4EBD6 ;
+    display: flex;
+    flex-direction: row;
+ 
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
